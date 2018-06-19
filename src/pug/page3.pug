@@ -1,0 +1,33 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    link(rel="stylesheet", href="../scss/page3.scss")
+    script(src="../js/lib/jquery.min.js")
+    script(src="../js/fontSize.js")
+    script(src="../js/lib/html2canvas.js")
+    script(src="../js/page3.js")
+    title 伪球迷世界杯demo
+  body
+    #page3.main
+        .top
+          img(src='../img/banner.png').banner
+          .rank-text
+            span.hits 1111
+            span 人猜冠军是
+            span.nation 葡萄牙
+            small 支持度排名
+            small.rank-val 1
+        .content
+          .text-model
+            span.befor-icon
+            span.after-icon
+          .check-model
+            .check-nation
+            .check-tag
+          .qcode-model
+            a(href='#').qcode-img
+            h3.a-text 长按图片分享  .  召唤你的伪球迷
+    img#curTpl(src="")

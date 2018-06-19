@@ -1,0 +1,95 @@
+// .bd {
+//   padding: 0 230px 0 190px;
+// }
+
+// .main {
+//   float: left;
+//   width: 100%;
+// }
+// .sub {
+//   float: left;
+//   width: 190px;
+//   margin-left: -100%;
+//   position: relative;
+//   left: -190px;
+// }
+// .extra {
+//   float: left;
+//   width: 190px;
+//   margin-left: -190px;
+//   position: relative;
+//   right: -190px;
+// }
+
+// .container1 {
+//   padding: 0 300px 0 200px;
+//   .main1,
+//   .left1,
+//   .right1 {
+//     min-height: 130px;
+//     float: left;
+//     position: relative;
+//   }
+//   .left1 {
+//     background-color: red;
+//     width: 200px;
+//     margin-left: -100%;
+//     left: -200px;
+//   }
+//   .main1 {
+//     background-color: green;
+//     width: 100%;
+//   }
+//   .right1 {
+//     background-color: blue;
+//     width: 300px;
+//     margin-left: -300px;
+//     right: -300px;
+//   }
+// }
+
+// .container2 {
+//   .main2,
+//   .left2,
+//   .right2 {
+//     min-height: 130px;
+//     float: left;
+//   }
+//   .left2 {
+//     background-color: red;
+//     width: 200px;
+//     margin-left: -100%;
+//   }
+//   .main2 {
+//     background-color: green;
+//     width: 100%;
+//     // padding: 0 300px 0 200px;
+//   }
+//   .right2 {
+//     background-color: blue;
+//     width: 300px;
+//     margin-left: -300px;
+//   }
+//   .content2 {
+//     padding: 0 300px 0 200px;
+//   }
+// }
+
+// .container {
+//   display: flex;
+//   min-height: 130px;
+
+//   .main {
+//     flex-grow: 9999;
+//     background-color: #00ff00;
+//   }
+//   .left {
+//     order: -1;
+//     background-color: #ff0000;
+//     flex-basis: 200px;
+//   }
+//   .right {
+//     flex-basis: 300px;
+//     background-color: #0000ff;
+//   }
+// }

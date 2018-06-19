@@ -1,0 +1,31 @@
+$yellow: #f8f62d;
+body {
+  height: 100%;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue",
+    sans-serif;
+}
+a {
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+  height: 100%;
+}
+.showToast {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.2rem 0.1rem;
+  background: #000000;
+  color: $yellow;
+  opacity: 0.7;
+  border-radius: 10px;
+  z-index: 100;
+}
+#curTpl {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
